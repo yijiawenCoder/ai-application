@@ -13,6 +13,7 @@ public class DromaraServletInitializer extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(DromaraApplication.class);
+        //test
     }
 
 }
